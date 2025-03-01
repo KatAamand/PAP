@@ -13,7 +13,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json()); 
 
 // Importing routes
-const routes = require('./src/routes/index'); 
+const routes = require('./routes/index'); 
 app.use('/', routes); 
 
 // Data
