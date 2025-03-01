@@ -1,0 +1,20 @@
+{
+  "name": "pap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KatAamand/PAP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KatAamand/PAP/issues"
+  },
+  "homepage": "https://github.com/KatAamand/PAP#readme",
+  "description": ""
+}
