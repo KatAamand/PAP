@@ -25,6 +25,11 @@ const products = [
 
 // Routes 
 
+app.get('/', (req, res) => {
+    res.render('index');
+});
+
+
 app.get('/invoice', (req, res) => {
     res.render('invoice', { events });
 });
