@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produktliste</title>
+</head>
+<body>
+  <h1>Produktliste</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Navn</th>
+        <th>Pris uden moms</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% produkter.forEach(produkt => { %>
+        <tr>
+          <td><%= produkt.navn %></td>
+          <td><%= produkt.prisUdenMoms.toFixed(2) %> DKK</td>
+        </tr>
+      <% }) %>
+    </tbody>
+  </table>
+</body>
+</html>
